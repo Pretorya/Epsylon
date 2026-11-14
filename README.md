@@ -30,7 +30,8 @@ pnpm lint
 pnpm build
 ```
 
-Design documents (in French) live in [`docs/`](docs).
+Work happens on branches merged into `dev`, then promoted to `staging` and `main`: see
+[CONTRIBUTING.md](CONTRIBUTING.md). Design documents (in French) live in [`docs/`](docs).
 
 ## License
 

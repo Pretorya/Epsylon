@@ -20,6 +20,7 @@
     ]
   },
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks || true",
     "build": "tsc -p tsconfig.build.json",
     "dev": "tsx src/cli.ts",
     "typecheck": "tsc --noEmit",
